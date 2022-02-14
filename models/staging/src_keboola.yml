@@ -1,0 +1,72 @@
+version: 2
+sources:
+    -
+        name: WORKSPACE_380649405
+        database: KEBOOLA_33
+        schema: WORKSPACE_377025614
+        tables:
+            -
+                name: dssand
+                quoting:
+                    identifier: true
+                columns:
+                      -
+                          name: kbc_data_science_sandbox_id
+                          quote: true
+                      -
+                          name: kbc_project_id
+                          quote: true
+                      -
+                          name: date
+                          quote: true
+                      -
+                          name: created_at
+                          quote: true
+                      -
+                          name: expiration_at
+                          quote: true
+                      -
+                          name: updated_at
+                          quote: true
+                      -
+                          name: start_at
+                          quote: true
+                      -
+                          name: sleep_at
+                          quote: true
+                      -
+                          name: type
+                          quote: true
+                      -
+                          name: sandbox_active
+                          quote: true
+                      -
+                          name: hostname
+                          quote: true
+                      -
+                          name: owner_id
+                          quote: true
+                      -
+                          name: sandbox_runtime_hours
+                          quote: true
+                      -
+                          name: backend_size
+                          quote: true
+                      -
+                          name: time_credits_used
+                          quote: true
+                      -
+                          name: dst_proj_single
+                          quote: true
+                      -
+                          name: dst_stack_single
+                          quote: true
+                      -
+                          name: dst_proj_company
+                          quote: true
+                      -
+                          name: dst_stack_company
+                          quote: true
+                      -
+                          name: _timestamp
+                          quote: true
