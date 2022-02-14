@@ -1,7 +1,7 @@
 version: 2
 sources:
     -
-        name: WORKSPACE_380649405
+        name: keboola
         database: KEBOOLA_33
         schema: WORKSPACE_377025614
         tables:
